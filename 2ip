@@ -1,0 +1,3 @@
+#!/bin/bash
+print "useage: 2ip < filename"
+while read p; do host $p | grep "has address" | cut -d" " -f4; done

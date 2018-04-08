@@ -1,0 +1,2 @@
+#!/bin/bash
+python /home/packet/PseudoBin/title_grab/title_grab.py $1
